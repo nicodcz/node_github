@@ -1,0 +1,11 @@
+li * {
+    display: inline-block;
+}
+
+.todo-text {
+    min-width:200px;
+}
+
+li {
+    margin-bottom: 4px;
+}

@@ -8,7 +8,7 @@ let todos = ["Implémenter une todo list", "Acheter du BTC", "Aller chez le coif
 app.use(express.static('public'))
 
 /**
- * Affichage de la vue todo
+ * Affichage de la vue todo.
  */
 app.get('/', (req, res) => {
   res.render('todo.ejs', {todos:todos})

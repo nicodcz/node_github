@@ -10,7 +10,7 @@
 		<ul>
 			<% todos.forEach((t, k) => { %>
 			<li> 
-				<span class="todo-text"><%= t %></span>
+				<span class="todo-text"><%= t.todo %></span>
 				<form method="POST" action="/todo/delete">
 					<input type="hidden" name="todo-id" id="todo-id" value="<%= k %>" />
 					<button type="submit" id="btn-delete">Supprimer</button>
